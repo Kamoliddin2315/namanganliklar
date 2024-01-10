@@ -1,0 +1,82 @@
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/rubik-v28-latin-regular.woff2") format("woff2"),
+        url("./fonts/rubik-v28-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/rubik-v28-latin-500.woff2") format("woff2"),
+        url("./fonts/rubik-v28-latin-500.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fonts/rubik-v28-latin-700.woff2") format("woff2"),
+        url("./fonts/rubik-v28-latin-700.woff") format("woff");
+}
+
+.cite_title {
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.interesting_section {
+    padding-bottom: 100px;
+}
+
+.tesla_text_wrapper {
+    margin-top: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.tesla_text {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.interesting_title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.interesting_text {
+    color: #4a4b4c;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.interesting_list {
+    display: flex;
+    column-gap: 10px;
+}
+
+.interesting_items {
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    padding: 20px 25px 15px 17px;
+}
